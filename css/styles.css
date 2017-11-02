@@ -17,3 +17,24 @@ article {
 img  {
 	width: 100%;
 }
+
+/*Parallax Styles*/
+.birdbox {
+	position: relative;
+	height: 600px;
+	background-image: url(../img/bird-bg.jpg);
+	background-size: auto 600px;
+	background-position: top center;
+	background-attachment: fixed;
+}
+
+.logo {
+	height: 100px;
+	width: 100%; 
+	background-image: url(../img/black-bird-logo.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 50%;
+	margin-top: -50px;
+}
