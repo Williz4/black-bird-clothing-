@@ -30,4 +30,4 @@ If you run into any issues dont hesitate to contact me by sending me an email at
 
 *MIT License*
 
-Copyright (c) {2017} **Wilson Mwangeka**
+Copyright (c) {2017} **Wilson Mwangeka (https://github.com/Williz4/black-bird-clothing-/blob/master/LICENSE)**
