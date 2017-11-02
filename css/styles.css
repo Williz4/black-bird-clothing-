@@ -26,6 +26,7 @@ img  {
 	background-size: auto 600px;
 	background-position: top center;
 	background-attachment: fixed;
+	overflow: hidden;
 }
 
 .logo {
@@ -37,4 +38,16 @@ img  {
 	position: absolute;
 	top: 50%;
 	margin-top: -50px;
+}
+
+.fore-bird {
+	width: 960px;
+	height: 733px;
+	background-image: url(../img/fore-bird.png);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	position: absolute;
+	left: 50%;
+	margin-left: -480px;
+	top: 380px;
 }
