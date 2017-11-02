@@ -62,3 +62,8 @@ img  {
 	left: 50%;
 	margin-left: -480px;
 }
+
+.clothes-pics figure {
+	margin-bottom: 20px; 
+	position: relative;
+}
