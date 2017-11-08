@@ -26,6 +26,15 @@ $(window).scroll(function() {
 		});
 
 	}
+
+	if (wScroll > $("#window").offset().top - $(window).height()){
+		
+		$("#window").css({"background-position" : "center "+ (wScroll - $("#window").offset().top) +"px"});
+
+		var opacity = (wScroll - $("#window").offset().top + 400) / (wScroll / 5)
+
+		$("#tint").css({"opacity" : opacity})
+	} 
  
 });
 

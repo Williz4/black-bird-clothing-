@@ -27,11 +27,59 @@ img  {
 #window {
 	height: 640px;
 	background-image: url(../img/model2.jpg);
-	background-position: top center;
-	background-repeat: no-repeat;
+	background-position: center 0px;
+	background-repeat: repeat-y;
 	background-attachment: fixed;
 	margin-top: 100px;
 	border-radius: 50%;
+	position: relative;
+}
+
+#tint {
+	background-color: rgba(0, 0, 0, .5);
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#promo {
+	color: #fff;
+	font-family: 'Source Serif Pro', serif;
+	font-weight: 100;
+	font-size: 50px;
+	line-height: 1.2;
+}
+
+#promo strong {
+	display: block;
+	font-size: 30px;
+}
+
+#promo strong span{
+	font-weight: normal;
+	font-size: 18px;
+	font-style: italic;
+	color: rgba(255, 255, 255, .6);
+}
+
+#cta {
+	font-size: 20px;
+	text-decoration: none;
+	color: #fff;
+	border: #fff 1px solid;
+	padding: 10px 20px;
+	transition: all .3s ease-in-out;
+}
+
+#cta:hover {
+	background: #fff;
+	color: black;
 }
 
 /*Parallax Styles*/
@@ -50,7 +98,7 @@ img  {
 	width: 100%; 
 	background-image: url(../img/black-bird-logo.svg);
 	background-position: center;
-	background-repeat: no-repeat;
+	background-repeat: repeat-y;
 	position: absolute;
 	top: 50%;
 	margin-top: -50px;
