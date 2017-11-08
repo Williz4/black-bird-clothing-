@@ -24,6 +24,16 @@ img  {
 	width: 100%;
 }
 
+#window {
+	height: 640px;
+	background-image: url(../img/model2.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin-top: 100px;
+	border-radius: 50%;
+}
+
 /*Parallax Styles*/
 .birdbox {
 	position: relative;
