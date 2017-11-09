@@ -1,3 +1,10 @@
+.content {
+	position: relative;
+	z-index: 2;
+	background: white;
+	margin-bottom: 400px;
+}
+
 /*Parallax Styles*/
 .birdbox {
 	position: relative;
@@ -7,6 +14,7 @@
 	background-position: top center;
 	background-attachment: fixed;
 	overflow: hidden;
+	z-index: 3;
 }
 
 .logo {
@@ -172,6 +180,33 @@ hr {
 
 #blog-post .btn-default{
 	border-radius: 0;
+}
+
+footer {
+	background-color: black;
+	color: #fff;
+	margin-top: 40px;
+	width: 100vw;
+	height: 200px;
+	padding: 50px;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+}
+
+footer ul {
+	list-style-type: none;
+	font-family: 'Source Serif Pro', serif;
+	font-size: 1.3em
+}
+
+footer ul li a{
+	color: #fff;
+}
+
+footer ul li a:hover {
+	color: red;
+	text-decoration: none;
 }
 
 /*Modal Styles*/
