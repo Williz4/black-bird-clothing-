@@ -1,3 +1,50 @@
+/*Parallax Styles*/
+.birdbox {
+	position: relative;
+	height: 600px;
+	background-image: url(../img/bird-bg.jpg);
+	background-size: auto 600px;
+	background-position: top center;
+	background-attachment: fixed;
+	overflow: hidden;
+}
+
+.logo {
+	height: 100px;
+	width: 100%; 
+	background-image: url(../img/black-bird-logo.svg);
+	background-position: center;
+	background-repeat: repeat-y;
+	position: absolute;
+	top: 50%;
+	margin-top: -50px;
+}
+
+.fore-bird {
+	width: 960px;
+	height: 733px;
+	background-image: url(../img/fore-bird.png);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	position: absolute;
+	left: 50%;
+	margin-left: -480px;
+	top: 380px;
+}
+
+.back-bird {
+	width: 960px;
+	height: 298px;
+	background-image: url(../img/back-bird.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+	position: absolute;
+	left: 50%;
+	margin-left: -480px;
+}
+
+/*Parallax Styles End*/
+
 h1 {
 	color: #ccc;
 	font-weight: 300;
@@ -82,53 +129,6 @@ img  {
 	color: black;
 }
 
-/*Parallax Styles*/
-.birdbox {
-	position: relative;
-	height: 600px;
-	background-image: url(../img/bird-bg.jpg);
-	background-size: auto 600px;
-	background-position: top center;
-	background-attachment: fixed;
-	overflow: hidden;
-}
-
-.logo {
-	height: 100px;
-	width: 100%; 
-	background-image: url(../img/black-bird-logo.svg);
-	background-position: center;
-	background-repeat: repeat-y;
-	position: absolute;
-	top: 50%;
-	margin-top: -50px;
-}
-
-.fore-bird {
-	width: 960px;
-	height: 733px;
-	background-image: url(../img/fore-bird.png);
-	background-repeat: no-repeat;
-	background-position: right bottom;
-	position: absolute;
-	left: 50%;
-	margin-left: -480px;
-	top: 380px;
-}
-
-.back-bird {
-	width: 960px;
-	height: 298px;
-	background-image: url(../img/back-bird.png);
-	background-repeat: no-repeat;
-	background-position: top left;
-	position: absolute;
-	left: 50%;
-	margin-left: -480px;
-}
-
-/*Parallax Styles End*/
-
 /*hr styles*/
 
 hr {
@@ -142,7 +142,7 @@ hr {
   margin-bottom: 40px;
 }
 
-/* end of hr styles*/
+/*end of hr styles*/
 
 .clothes-pics figure {
 	margin-bottom: 20px; 
@@ -163,6 +163,15 @@ hr {
 	border: none;
 	border-radius: 0;
 	margin-top: 10px;
+}
+
+#blog-post #post {
+	border: 1px solid #e1e1e1;
+	padding: 20px;
+} 
+
+#blog-post .btn-default{
+	border-radius: 0;
 }
 
 /*Modal Styles*/
